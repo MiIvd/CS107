@@ -1,0 +1,23 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class Lab3a
+{	
+	public static void main (String[] args)
+	{
+ 	    Scanner in = new Scanner(System.in);
+	    Random obj = new Random();
+	    System.out.println("Program 3, Milad Balkhinezhad, masc1580");
+	
+	    int x = obj.nextInt(100);
+	    int y = obj.nextInt(100);
+	    int z = x + y;
+		System.out.println(x + "+" + y + "=");
+		int ans = in.nextInt(); 
+		if (ans == z)
+		System.out.println("Correct");
+		else
+		System.out.println("Incorrect: the answer is " + z);
+
+	}
+}
