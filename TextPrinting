@@ -11,11 +11,11 @@ public class Lab1
 	{
       System.out.println("Program 1, Milad Balkhinezhad, masc1580");
 
-	    System.out.print("A blanket attempt to avoid mistakes ");
-	    System.out.println("is the biggest mistake of all");
+	//    System.out.print("A blanket attempt to avoid mistakes ");
+	//    System.out.println("is the biggest mistake of all");
 
-	    System.out.print("                         ");
-      System.out.print("--Steve McConnell, author of Code Complete");
+	//    System.out.print("                         ");
+      	//    System.out.print("--Steve McConnell, author of Code Complete");
 
 	    System.out.print("\"A blanket attempt to avoid mistakes " + "is the biggest mistake of all.\"\n");
 	    System.out.print ("\t\t\t--Steve McConnell, author of Code Complete\n");
