@@ -1,0 +1,24 @@
+/**
+ * Program 1: Display text
+ * CS107 Section 1
+ * February 10th, 2015
+ * @author Milad Balkhinezhad
+ */
+
+public class Lab1
+{
+	public static void main (String[] args)
+	{
+      System.out.println("Program 1, Milad Balkhinezhad, masc1580");
+
+	    System.out.print("A blanket attempt to avoid mistakes ");
+	    System.out.println("is the biggest mistake of all");
+
+	    System.out.print("                         ");
+      System.out.print("--Steve McConnell, author of Code Complete");
+
+	    System.out.print("\"A blanket attempt to avoid mistakes " + "is the biggest mistake of all.\"\n");
+	    System.out.print ("\t\t\t--Steve McConnell, author of Code Complete\n");
+
+	}
+}
